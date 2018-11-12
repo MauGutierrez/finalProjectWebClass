@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Parking Tec </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/Sign_in.css">
+</head>
+<body>
+	<main>
+		<div class="login-page">
+			<div class="form">
+				<header> Parking Tec </header>
+				<img src="img/tec.jpg"/>
+				<h4> Where you will always have an space </h4>
+				<form class="login-form" name="myForm-login">
+					<input id="Matriculation-Number" type="text" name="Matriculation-Number" placeholder="Matriculation Number"/>
+					<input id="password" type="password" name="password" placeholder="password"/>
+					<input class="rememberMe" type="checkbox" name="remember"/> <label>Remember Me</label>
+					<button class="button-login"> Login </button>
+					<p class="message"><a href="#">Register your car</a></p> 
+				</form>
+				<form class="register-form" name="myForm-Register" id="myForm-Register">
+					<input id="First-Name" type="text" name="First-Name" placeholder="First Name"/>
+					<input id="Last-Name" type="text" name="Last-Name" placeholder="Last Name"/>
+					<input id="id" type="text" name="Matriculation-Number" placeholder="Matriculation number"/>
+					<input id="Parking-slot" type="text" name="Parking-slot" placeholder="Parking Slot"/>
+					<input id="Car-Model" type="text" name="Car-Model" placeholder="Car Model"/>
+					<input id="Car-Number" type="text" name="Car-Number" placeholder="Car Plate Number"/>
+					<input id="email" type="text" name="email" placeholder="Email"/>
+					<input id="Password" type="password" name="password" placeholder="Password"/>
+					<input id="Password-Confirmation" type="password" name="Password-Confirmation" placeholder="Confirm Password"/>
+					<button class="button-register"> Register </button>
+					<button class="button-clear"> Clear </button>
+					<p class="message">Already registered? <a href="#">Sign In</a></p>			
+				</form>
+			</div>
+		</div>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/sign_in.js"></script>
+</body>
+</html>

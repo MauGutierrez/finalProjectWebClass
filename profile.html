@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Parking Tec </title>
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/homepage.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="css/profile.css" rel="stylesheet">
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a href="#"><span class="glyphicon glyphicon-user"></span><span id="myProfile"></span></a>
+                  </li>
+                  <li>
+                     <a href="#"><span class="glyphicon glyphicon-home"></span><span id="toHome"> Home </span></a>
+                  </li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                     <ul class="dropdown-menu" aria-labelledby="about-us">
+                        <li><a id="Requests" href="#"> My Space Requests </a></li>
+                        <li><a href="#"> Configuration </a></li>
+                        <li><a id="Logout" href="#"> Log Out </a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      
+      <!-- Profile info -->
+      <div class="container-fluid">
+         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
+            <div class="panel panel-info">
+               <div class="panel-heading">
+                  <h3 class="panel-title"></h3>
+               </div>
+               <div class="panel-body">
+                  <div class="row">
+                     <div class="col-md-3 col-lg-3 " align="center"> <img src="img/profile.png" class="img-circle img-responsive"> </div>
+                     <div class=" col-md-9 col-lg-9 ">
+                        <table class="table table-user-information">
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+  	  <!-- /Profile info -->
+      <footer>
+         <div class="small-print">
+            <div class="container">
+               <p>
+                  Parking Tec &reg; - Where you will always have an space.
+               </p>
+            </div>
+         </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/ie10-viewport-bug-workaround.js"></script>
+      <script src="js/add_profile.js"></script>
+      <script src="js/redirect_profile.js"></script>
+      <script src="js/add_user_info.js"></script>
+      <script src="js/logout.js"></script>
+   </body>
+</html>

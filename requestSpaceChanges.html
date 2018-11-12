@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Parking Tec </title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/homepage.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+<div class="container">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar">
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+			<a href="#"><span class="glyphicon glyphicon-user"></span><span id="myProfile"></span></a>
+			</li>
+			<li>
+			<a href="#"><span class="glyphicon glyphicon-home"></span><span id="toHome"> Home </span></a>
+			</li>
+			<li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+			<ul class="dropdown-menu" aria-labelledby="about-us">
+				<li><a id="Requests" href="#"> My Space Requests </a></li>
+				<li><a href="#"> Configuration </a></li>
+				<li><a id="Logout" href="#"> Log Out </a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<div class="container-fluid">
+
+	<!-- Columna izquierda -->
+	<div class="col-sm-3">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h1 class="panel-title"><span class="glyphicon glyphicon-th-list"></span> groups</h1>
+			</div>
+			<div class="list-group">
+				<a href="#" class="list-group-item"> Parking lot exchange </a>
+			</div>
+		</div>
+	</div>
+	<!-- /Columna izquierda -->
+
+	<!-- Comment box -->
+	<div class="col-sm-6">
+		<div class="row">
+			<div class="x_panel">
+				<div class="x_title">
+					<h3> Parking slot requests from other users </h3>
+					<div class="clearfix"></div>
+				</div>
+				<div class="x_content">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th><center>#</center></th>
+								<th><center>parking slot</center></th>
+								<th><center>parking lot Owner</center></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody id="table-parking-lot">
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<!-- /Comment box -->
+
+</div>
+<footer>
+<div class="small-print">
+	<div class="container">
+		<p>
+			Parking Tec &reg; - Where you will always have an space.
+		</p>
+	</div>
+</div>
+</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script src="js/holder.min.js"></script>
+	<script src="js/add_profile.js"></script>
+	<script src="js/redirect_profile.js"></script>
+	<script src="js/get_parking_slots_to_change.js"></script>
+	<script src="js/logout.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.panel-title {
+	color: white;
+}
+
+.panel-footer {
+	background-color: #034E89;
+	height: 55px;
+}
+
+.fa {
+	font-size: 250%;
+	color: white;
+}
+
+#myProfile {
+  margin-left: 10px;
+}
